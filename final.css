@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+h1,h2,h3{
+    color: rgb(112, 130, 56);
+}
+/*
+.upperpart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}*/
+.main{
+    width: 100%;
+    margin: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+   margin-left: 20px;
+}
+.name h1{
+    font-size: 50px;
+}
+.leftside{
+    margin-left: 30px;
+    height: 100vh;
+}
+.rightside{
+    margin-left: 80px;
+    margin-right: 20px;
+    height: 100vh;
+
+}
+.mba{
+    margin-left: 50px;
+}
+.career{
+    margin-right: 100px;
+    margin-left: 30px;
+}
